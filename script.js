@@ -36,7 +36,8 @@ minutes = $("#input").val();
   minutesP = $("#inputPause").val();
 clearInterval(x);
 clearInterval(y);
-$("#timer").html("Set up your tempo and click start.")
+$("#timer").html("Set up your tempo and click start.");
+$("title").html("Pomodoro Clock");
 }
 
 
